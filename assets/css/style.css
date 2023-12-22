@@ -1,0 +1,130 @@
+/* Color Scheme 
+Darkest Blue { color: #3049D9; }
+Darker Blue { color: #2B65D9; }
+Light Blue { color: #2B88D9; }
+Off-White { color: #D9CCC5; }
+Orange { color: #F24C27; }
+
+.retro-gradient-background-with-grain-texture-1-rgba { color: rgba(48, 73, 217, 1); }
+.retro-gradient-background-with-grain-texture-2-rgba { color: rgba(43, 101, 217, 1); }
+.retro-gradient-background-with-grain-texture-3-rgba { color: rgba(43, 136, 217, 1); }
+.retro-gradient-background-with-grain-texture-4-rgba { color: rgba(217, 204, 197, 1); }
+.retro-gradient-background-with-grain-texture-5-rgba { color: rgba(242, 76, 39, 1); }
+*/
+
+
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+img {
+    max-width:100%;
+    height:auto;
+  }
+
+body {
+  margin: 0;
+  background-color: #2B65D9;
+}
+
+header.primary {
+  background-color: #3049D9;
+  height: 60vh;
+  position:relative;
+  top:0;
+  box-shadow: 5px 5px 5px #2B88D9;
+}
+
+.primary h1 {
+  font-family: 'Paytone One', sans-serif;
+  font-size: 3.2rem;
+  text-transform: uppercase;
+  color: #D9CCC5;
+  width:70%;
+  position:absolute;
+  top:30%;
+  left:10%;
+}
+
+.primary h1 .diff {
+  color: #2B88D9;
+}
+
+
+
+
+
+/*-----NAVIGATION-----*/
+nav ul {
+  margin:0;
+  padding: 20px 40px;
+  display: flex;
+  gap: 80px;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+nav li {
+  list-style-type: none;
+  font-family: Passion One;
+  font-size: 1.8rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2B88D9;
+  transition: .5s;
+}
+
+nav a:hover {
+  text-shadow: 3px 3px #2B65D9;
+}
+
+/*-----CONTENT-----*/
+.content {
+  background-color: #D9CCC5;
+  margin:auto;
+  margin-top: 30px;
+  padding: 20px 50px;
+  border-radius: 10px;
+  width: 80%;
+}
+
+.content h2, h3 {
+  font-family: Passion One;
+}
+
+.content h2 {
+  font-size: 2.5rem;
+  color: #3049D9;
+  padding-top:20px;
+}
+
+.content h3 {
+  font-size: 1.8rem;
+  color: #2B65D9;
+}
+
+.content li {
+  list-style-type:none;
+  font-family: Onest;
+  font-size: 1.6;
+}
+
+.content a {
+  text-decoration:none;
+  color: #000;
+}
+
+.content ul.workouts {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #2B88D9;
+}
